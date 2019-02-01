@@ -1,0 +1,15 @@
+app.factory('ExampleService',function(){
+var d = 10;
+var a = 5;
+var temp = function(){
+a += 10;
+return a*a;
+}
+var l = function(){
+return d+=1; 
+}
+return{
+someMethod:function(){
+return temp();
+}
+});

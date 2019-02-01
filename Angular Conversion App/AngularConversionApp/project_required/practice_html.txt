@@ -1,0 +1,22 @@
+
+Name': <input [(ngModel)]="name">
+
+[ngClass]="{'active':isActive,'shazam':isImportant}">  
+<button (click)=" toggleImage()">
+
+<a [href]="angularDocsUrl"> Angular_Docs</a>
+
+<table ngIf ="movies.length">
+
+<tr *ngFor="let movie of  movies">
+
+<img[src]="movie.imageurl">
+
+<div  [ngStyle]="{'color':colorPreference}">
+ 
+
+<a routerLink="/london" >City 1</a>
+<a routerLink="/paris" >City 2</a>
+
+
+ \\ write ** <base href=" / "> ** in index.html if routing is used 

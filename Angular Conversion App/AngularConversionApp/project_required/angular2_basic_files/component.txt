@@ -1,0 +1,10 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: 'path of html file here',
+  styleUrls: ['path of css file here'],
+  providers: [service name]
+})
+export class AppComponent {
+

@@ -1,0 +1,15 @@
+myApp.provider('getName', function() {
+
+this.name = 'Default';
+this.$get = function() {
+var name = this.name;
+
+return {
+newName: function() {
+return "name" 
+}
+}
+};
+this.setName = function(name) {
+this.name = name; }
+});

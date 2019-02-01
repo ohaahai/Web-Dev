@@ -1,0 +1,7 @@
+    $http.get("welcome.htm")
+    .subscribe(response => {
+        this.content = response.data;
+        this.statuscode = response.status;
+        this.statustext = response.statusText; 
+    });
+});

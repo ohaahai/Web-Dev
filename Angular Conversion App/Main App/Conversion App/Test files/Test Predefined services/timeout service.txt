@@ -1,0 +1,6 @@
+app.controller('serviceCtrl', function serviceCtrl($scope, $timeout) {
+    $scope.myHeader = "Hello World!";
+    $timeout(function () {
+        $scope.myHeader = "text changed";
+    }, 2000);
+});

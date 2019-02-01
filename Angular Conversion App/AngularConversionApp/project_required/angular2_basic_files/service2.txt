@@ -1,0 +1,8 @@
+// ...
+import { Location, LocationStrategy, PathLocationStrategy } from '@angular/common';
+
+@Component({
+  ...
+  providers: [Location, {provide: LocationStrategy, useClass: PathLocationStrategy}]
+})
+export class 

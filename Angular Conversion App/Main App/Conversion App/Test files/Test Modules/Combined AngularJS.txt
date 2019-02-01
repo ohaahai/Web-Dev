@@ -1,0 +1,24 @@
+<div ng-app="myApplication" ng-controller="myCtrl">
+
+Name: <input ng-model="name">
+
+ng-class="{active:isActive,shazam:isImportant}">  
+<button ng-click="vm.toggleImage()">
+
+<a ng-href="{{angularDocsUrl}}"> Angular_Docs</a>
+
+<table ng-if="movies.length">
+
+<tr ng-repeat="movie in vm.movies">
+
+<img ng-src="{{movie.imageurl}}">
+
+<div ng-style="{color:colorPreference}" </div>
+</div>
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+$scope.name="John_Doe";
+$scope.names=[{name:Jani,country:'Norway'},{name:'Hege',country:'Sweden'},{name:'Kai',country:'Denmark'}];
+});
+</script> 

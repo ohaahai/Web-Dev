@@ -1,0 +1,9 @@
+$routeProvider.when('/addStudent/:id', {
+                 templateUrl: 'addStudent.htm',
+                 controller: 'AddStudentController'
+                   })
+
+$routeProvider.when('/viewStudents/:id', {
+                 templateUrl: 'viewStudents.htm',
+                 controller: 'ViewStudentsController'
+                   })
